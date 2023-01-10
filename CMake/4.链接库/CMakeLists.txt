@@ -4,10 +4,10 @@ project(Demo4)
 
 include_directories(${PROJECT_SOURCE_DIR}/include)
 
-find_library(myLib libmyFunc.a HINTS ${PROJECT_SOURCE_DIR}/lib) # ÔÚÖ¸¶¨Ä¿Â¼ÏÂ²éÕÒÖ¸¶¨¿â£¬²¢°Ñ¿âµÄ¾ø¶ÔÂ·¾¶´æ·Åµ½±äÁ¿Àï¡£µÚÒ»¸ö²ÎÊýÊÇ±äÁ¿Ãû³Æ£¬µÚ¶þ¸ö²ÎÊýÊÇ¿âÃû³Æ£¬µÚÈý¸ö²ÎÊýÊÇHINTS£¬µÚ4¸ö²ÎÊýÊÇÂ·¾¶
+find_library(myLib libmyFunc.a HINTS ${PROJECT_SOURCE_DIR}/lib) # åœ¨æŒ‡å®šç›®å½•ä¸‹æŸ¥æ‰¾æŒ‡å®šåº“ï¼Œå¹¶æŠŠåº“çš„ç»å¯¹è·¯å¾„å­˜æ”¾åˆ°å˜é‡é‡Œã€‚ç¬¬ä¸€ä¸ªå‚æ•°æ˜¯å˜é‡åç§°ï¼Œç¬¬äºŒä¸ªå‚æ•°æ˜¯åº“åç§°ï¼Œç¬¬ä¸‰ä¸ªå‚æ•°æ˜¯HINTSï¼Œç¬¬4ä¸ªå‚æ•°æ˜¯è·¯å¾„
 
 add_executable(main ${PROJECT_SOURCE_DIR}/main.cpp)
 
-target_link_libraries(main ${myLib}) # °ÑÄ¿±êÎÄ¼þÓë¿âÎÄ¼þ½øÐÐÁ´½Ó
+target_link_libraries(main ${myLib}) # æŠŠç›®æ ‡æ–‡ä»¶ä¸Žåº“æ–‡ä»¶è¿›è¡Œé“¾æŽ¥
 
-set(EXECUTABLE_OUTPUT_PATH ${PROJECT_SOURCE_DIR}/bin) # ¿ÉÑ¡£º¿ÉÖ´ÐÐÎÄ¼þÊä³öÂ·¾¶
+set(EXECUTABLE_OUTPUT_PATH ${PROJECT_SOURCE_DIR}/bin) # å¯é€‰ï¼šå¯æ‰§è¡Œæ–‡ä»¶è¾“å‡ºè·¯å¾„
