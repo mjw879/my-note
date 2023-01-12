@@ -4,7 +4,7 @@ project(Demo6_2)
 
 set(EXECUTABLE_OUTPUT_PATH ${PROJECT_SOURCE_DIR}/bin)
 
-#  Í¨¹ıÃüÁîĞĞÔËĞĞ cmake .. -DmyDefine1=ON -DmyDefine2=ON À´´ò¿ªÏÂÃæÁ½¸öÑ¡Ïî
+#  é€šè¿‡å‘½ä»¤è¡Œè¿è¡Œ cmake .. -DmyDefine1=ON -DmyDefine2=ON æ¥æ‰“å¼€ä¸‹é¢ä¸¤ä¸ªé€‰é¡¹
 option(myDefine1 "print myDefine1" OFF)
 option(myDefine2 "print myDefine2" OFF)
 

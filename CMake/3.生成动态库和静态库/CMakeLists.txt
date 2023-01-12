@@ -10,7 +10,7 @@ set_target_properties(myFunc_shared PROPERTIES OUTPUT_NAME "myFunc")
 
 # 编译静态库
 add_library(myFunc_static STATIC ${SRC_LIST})
-set_target_properties(myFunc_shared PROPERTIES OUTPUT_NAME "myFunc")
+set_target_properties(myFunc_static PROPERTIES OUTPUT_NAME "myFunc")
 
 set(LIBRARY_OUTPUT_PATH ${PROJECT_SOURCE_DIR}/lib) # 设置产物库的输出路径
 
