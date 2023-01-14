@@ -9,5 +9,3 @@ find_library(myLib libmyFunc.a HINTS ${PROJECT_SOURCE_DIR}/lib) # 在指定目�
 add_executable(main ${PROJECT_SOURCE_DIR}/main.cpp)
 
 target_link_libraries(main ${myLib}) # 把目标文件与库文件进行链接
-
-set(EXECUTABLE_OUTPUT_PATH ${PROJECT_SOURCE_DIR}/bin) # 可选：可执行文件输出路径

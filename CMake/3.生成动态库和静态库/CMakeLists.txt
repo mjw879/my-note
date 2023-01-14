@@ -12,6 +12,6 @@ set_target_properties(myFunc_shared PROPERTIES OUTPUT_NAME "myFunc")
 add_library(myFunc_static STATIC ${SRC_LIST})
 set_target_properties(myFunc_static PROPERTIES OUTPUT_NAME "myFunc")
 
-set(LIBRARY_OUTPUT_PATH ${PROJECT_SOURCE_DIR}/lib) # 设置产物库的输出路径
+set(LIBRARY_OUTPUT_PATH ${PROJECT_SOURCE_DIR}/lib) # 可选：设置产物库的输出路径
 
 
