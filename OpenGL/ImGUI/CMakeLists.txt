@@ -22,8 +22,10 @@ if (${CMAKE_HOST_SYSTEM_NAME} MATCHES Linux)
     target_link_libraries(${PROJECT_NAME} ${dl}) 
 
 elseif(${CMAKE_HOST_SYSTEM_NAME} MATCHES Windows)
-    find_library(glfw3 glfw3.lib HINTS ${PROJECT_SOURCE_DIR}/library/glfw/lib-vc2010-64)
-    find_library(opengl32 opengl32.lib)
+    include_directories(${PROJECT_SOURCE_DIR}/library/glfw/include)
+
+    find_library(glfw3 glfw3.lib HINTS ${PROJECT_SOURCE_DIR}/library/glfw/lib-vc2010-32)
+    set(opengl32 opengl32)
 
     target_link_libraries(${PROJECT_NAME} ${glfw3})
     target_link_libraries(${PROJECT_NAME} ${opengl32}) 
