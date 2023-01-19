@@ -7,7 +7,7 @@ aux_source_directory(${PROJECT_SOURCE_DIR}/source source_dir)
 add_compile_options(-std=c++11 -Wall -g )
 
 if (${CMAKE_HOST_SYSTEM_NAME} MATCHES Linux)
-    find_library(glfw3 libglfw3.so)
+    find_library(glfw3 libglfw3.a)
     find_library(GL libGL.so)
     find_library(X11 libX11.so)
     find_library(pthread libpthread.so)
