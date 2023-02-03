@@ -21,7 +21,7 @@ import inspect
 
 import copy
 
-null=0xffffffff
+null=None
 true=True
 false=False
 class ListNode:
