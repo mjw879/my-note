@@ -13,6 +13,8 @@
 
 1. 环境
    WSL Ubuntu 18.04
+   `sudo apt-get install build-essential`
+   `sudo apt-get install vim`
 2. Python
    [Programing Language/Python/README.md](Programing Language/Python/README.md)
 3. VS Code
