@@ -17,6 +17,6 @@
 2
 
 # 调整图片大小  
-<img decoding="async" src="../../resources/img/awesomeface.png" width="10%">
+<img decoding="async" src="../resources/img/awesomeface.png" width="10%">
 
 # 
