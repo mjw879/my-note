@@ -1,0 +1,60 @@
+site_name: My Docs
+
+# repo_url: https://github.com/mjw879/my-note
+# repo_name: mjw879/my-note
+
+nav:
+  - Home: index.md
+  - LeetCode:
+    - 二分法: LeetCode/二分法.md
+    - 枚举: LeetCode/枚举.md
+    - 脑筋急转弯: LeetCode/脑筋急转弯.md
+    - 思路转换: LeetCode/思路转换.md
+    - 贪心: LeetCode/贪心.md
+    - 图: LeetCode/图.md
+  # - Algorithm:
+  #   - Algorithm/README.md 
+  #   - Page 1: section/page-1.md
+  #     - Page 1: 1. enuerate.md
+  #   - Page 2: section/page-n.md
+
+theme:
+  name: material
+  logo: 'resources/icon/notebook.svg'
+  palette: 
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: deep purple
+      toggle:
+        icon: material/weather-night 
+        name: Switch to dark mode
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      toggle:
+        icon: material/brightness-7
+        name: Switch to light mode
+  features:
+    - navigation.tabs   # 导航栏
+    # - navigation.expand # 默认展开左侧栏的子项
+    - content.code.copy
+    - navigation.indexes
+    - navigation.top    # 返回顶部按钮
+  
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.arithmatex: # 渲染公式
+      generic: true
+  - pymdownx.highlight: # 自动生成代码行号
+      linenums: true
+
+extra_javascript: # 渲染公式
+  - resources/javascripts/mathjax.js
+  - https://polyfill.io/v3/polyfill.min.js?features=es6
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+
+# plugins:
+#   - search: 
+#       separator: '[\s\u200b\-]' # 中文搜索 require `pip3 install jieba`

@@ -60,3 +60,17 @@ def buildTree(nums):
             head.right=TreeNode(nums[i+1])
             q.append(head.right)
     return root
+
+def LeetCodeDebug(function,cases,answers):
+    paramNumber=function.__code__.co_argcount-1
+    for case,answer in zip(cases,answers):
+            if paramNumber==1:
+                res=function(case)
+            else:
+                res=function(*case)
+            if res!=answer:
+                print(res,answer)
+            else:
+                print()
+
+
