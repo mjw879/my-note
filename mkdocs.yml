@@ -12,6 +12,8 @@ nav:
     - 思路转换: LeetCode/思路转换.md
     - 贪心: LeetCode/贪心.md
     - 图: LeetCode/图.md
+    - 动态规划: LeetCode/动态规划.md
+    - 栈: LeetCode/栈.md
   # - Algorithm:
   #   - Algorithm/README.md 
   #   - Page 1: section/page-1.md
@@ -49,7 +51,11 @@ markdown_extensions:
       generic: true
   - pymdownx.highlight: # 自动生成代码行号
       linenums: true
-
+  # 支持emoji表情
+  # - attr_list
+  # - pymdownx.emoji:
+  #     emoji_index: !!python/name:materialx.emoji.twemoji
+  #     emoji_generator: !!python/name:materialx.emoji.to_svg
 extra_javascript: # 渲染公式
   - resources/javascripts/mathjax.js
   - https://polyfill.io/v3/polyfill.min.js?features=es6
