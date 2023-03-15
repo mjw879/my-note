@@ -1,15 +1,16 @@
-<p align="center" style="font-size:36px; font-weight:bold;color:red;font-style:italic" >哪有那么多天才，大多是普通人在背后偷偷努力</p>
+# README
 
 #### 1.介绍
 
-    我的笔记本
+   我的笔记，记录一些**最近学习的/有价值复习**的东西
 
 #### 2.使用教程
 
 1. 拉取笔记
-   `git clone git@gitee.com:ma879/my-note.git`
+   `git clone git@github.com:mjw879/my-note.git`
+   ~~`git clone git@gitee.com:ma879/my-note.git`~~
 
-#### 2.依赖
+#### 3.依赖
 
 1. 环境
    WSL Ubuntu 18.04
