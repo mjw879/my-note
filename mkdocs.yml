@@ -14,6 +14,8 @@ nav:
     - 图: LeetCode/图.md
     - 动态规划: LeetCode/动态规划.md
     - 栈: LeetCode/栈.md
+    - 滑动窗口: LeetCode/滑动窗口.md
+    - 数据结构: LeetCode/数据结构.md
   # - Algorithm:
   #   - Algorithm/README.md 
   #   - Page 1: section/page-1.md
