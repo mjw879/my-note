@@ -1,4 +1,4 @@
-site_name: My Docs
+site_name: My Note
 
 # repo_url: https://github.com/mjw879/my-note
 # repo_name: mjw879/my-note
@@ -6,6 +6,13 @@ site_name: My Docs
 nav:
   - Home: index.md
   - LeetCode:
+    - 数学: LeetCode/数学.md
+    - 前缀和: LeetCode/前缀和.md
+    - 桶排序: LeetCode/桶排序.md
+    - 二叉树: LeetCode/二叉树.md
+    - 字符串: LeetCode/字符串.md
+    - 随机采样: LeetCode/随机采样.md
+    - 深度优先搜索: LeetCode/BFS.md
     - 二分法: LeetCode/二分法.md
     - 枚举: LeetCode/枚举.md
     - 脑筋急转弯: LeetCode/脑筋急转弯.md
@@ -16,6 +23,11 @@ nav:
     - 栈: LeetCode/栈.md
     - 滑动窗口: LeetCode/滑动窗口.md
     - 数据结构: LeetCode/数据结构.md
+    
+    
+
+  - Git: Git/tutorial.md
+  - LaTex:  LaTex/LaTex.md
   # - Algorithm:
   #   - Algorithm/README.md 
   #   - Page 1: section/page-1.md
@@ -49,6 +61,7 @@ markdown_extensions:
   - admonition
   - pymdownx.details
   - pymdownx.superfences
+  - md_in_html # 让 `??? tip` 折叠块里面可以显示 LaTex 公式
   - pymdownx.arithmatex: # 渲染公式
       generic: true
   - pymdownx.highlight: # 自动生成代码行号
