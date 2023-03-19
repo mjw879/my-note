@@ -1,4 +1,24 @@
-# 修改commit comment
+# git使用笔记
+
+## 撤销工作区的修改
+
+`git checkout .`
+
+
+## 撤销暂存区的修改
+
+`git reset HEAD`
+
+
+## 切换分支前 保存/恢复 当前工作现场
+
+保存:  
+`git stash`
+
+恢复:  
+`git stash pop`
+
+## 修改commit comment
 
 ### 1.修改最近一次commit comment
 
@@ -6,7 +26,7 @@
 
 ---
 
-# 合并多个提交
+## 合并多个提交
 
 合并下图**7**个commit
 ![](../resources/img/mergeCommit1.webp)
@@ -22,7 +42,7 @@
 
 ---
 
-# .gitignore文件不起作用
+## .gitignore文件不起作用
 
 0. 进入项目路径
 1. 清除本地当前的Git缓存
