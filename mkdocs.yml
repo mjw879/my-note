@@ -23,7 +23,10 @@ nav:
     - 栈: LeetCode/栈.md
     - 滑动窗口: LeetCode/滑动窗口.md
     - 数据结构: LeetCode/数据结构.md
-    
+    - 双指针: LeetCode/双指针.md
+  # - Algorithm:
+  #   - 数据结构:
+  #     - 并查集: Algorithm/6. Data Struct/并查集.md
     
 
   - Git: Git/tutorial.md
