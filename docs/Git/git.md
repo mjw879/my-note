@@ -5,9 +5,11 @@
 `git checkout .`
 
 
+
 ## 撤销暂存区的修改
 
 `git reset HEAD`
+
 
 
 ## 切换分支前 保存/恢复 当前工作现场
@@ -18,11 +20,24 @@
 恢复:  
 `git stash pop`
 
+
+
 ## 推送分支到其他仓库
 
 `git remote add {要推出的分支名} {要推到的仓库地址}`
 
 `git push {要推出的分支名} --all`
+
+
+
+## 版本回退
+
+`git reset HEAD^`  
+`git reset HEAD^^`  
+`git reset HEAD~100`  
+`git reset {hash}`  
+
+
 
 ## 修改commit comment
 
@@ -30,7 +45,7 @@
 
 ``git commit --amend``
 
----
+
 
 ## 合并多个提交
 
@@ -46,15 +61,19 @@
 > pick：保留该 commit
 > squash：将该 commit 和前一个 commit 合并
 
----
+
 
 ## 推送本地分支到远程
 
 `git push origin {分支名}`
 
+
+
 ## 删除远程分支
 
 `git push origin --delete {分支名}`
+
+
 
 ## .gitignore文件不起作用
 
