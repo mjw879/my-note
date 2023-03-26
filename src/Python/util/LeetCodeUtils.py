@@ -73,4 +73,8 @@ def LeetCodeDebug(function,cases,answers):
             else:
                 print()
 
-
+# 将整型数组arr转换成从start开始的连续的值
+# 例：[300,100,200,400] -> [2,0,1,3]
+def Narrow(arr,start=0):
+    idx={v:i+start for i,v in enumerate(sorted(list(set(arr))))}
+    return [idx[i] for i in arr]
