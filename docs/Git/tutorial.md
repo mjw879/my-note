@@ -18,6 +18,12 @@
 恢复:  
 `git stash pop`
 
+## 推送分支到其他仓库
+
+`git remote add {要推出的分支名} {要推到的仓库地址}`
+
+`git push {要推出的分支名} --all`
+
 ## 修改commit comment
 
 ### 1.修改最近一次commit comment
