@@ -48,6 +48,14 @@
 
 ---
 
+## 推送本地分支到远程
+
+`git push origin {分支名}`
+
+## 删除远程分支
+
+`git push origin --delete {分支名}`
+
 ## .gitignore文件不起作用
 
 0. 进入项目路径
