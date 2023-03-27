@@ -69,6 +69,8 @@ markdown_extensions:
       generic: true
   - pymdownx.highlight: # 自动生成代码行号
       linenums: true
+  - pymdownx.tabbed:
+      alternate_style: true 
   # 支持emoji表情
   # - attr_list
   # - pymdownx.emoji:

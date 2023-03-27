@@ -1,17 +1,33 @@
-# 简介
+# README
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+#### 1.介绍
 
-## Commands
+我的笔记，记录一些**最近学习的/有价值复习**的东西
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+#### 2.使用教程
 
-## Project layout
+1. 拉取笔记  
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+=== "GitHub"
+
+    ```markdown
+    git clone git@github.com:mjw879/my-note.git
+    ```
+
+=== "Gitee"
+
+    ```markdown
+    git clone git@gitee.com:ma879/my-note.git
+    ```
+
+
+#### 3.依赖
+
+1. 环境  
+   WSL Ubuntu 18.04
+   `sudo apt-get install build-essential`
+   `sudo apt-get install vim`
+2. Python  
+   [docs/Python/README.md](docs/Python/README.md)
+3. VS Code  
+   [docs/VSCode/README.md](docs/VSCode/README.md)
