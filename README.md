@@ -22,6 +22,6 @@
 
 ## 部署
 
-参考：
-1. https://squidfunk.github.io/mkdocs-material/creating-your-site/
-2. https://squidfunk.github.io/mkdocs-material/publishing-your-site/
+参考：  
+1. [建立网站](https://squidfunk.github.io/mkdocs-material/creating-your-site/)  
+2. [部署网站到github page](https://squidfunk.github.io/mkdocs-material/publishing-your-site/)  
