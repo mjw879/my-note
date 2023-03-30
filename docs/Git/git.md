@@ -22,14 +22,6 @@
 
 
 
-## 推送分支到其他仓库
-
-`git remote add {要推出的分支名} {要推到的仓库地址}`
-
-`git push {要推出的分支名} --all`
-
-
-
 ## 版本回退
 
 `git reset HEAD^`  
