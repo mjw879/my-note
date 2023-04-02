@@ -78,3 +78,27 @@ def LeetCodeDebug(function,cases,answers):
 def Narrow(arr,start=0):
     idx={v:i+start for i,v in enumerate(sorted(list(set(arr))))}
     return [idx[i] for i in arr]
+
+class UnionFind:
+    def __init__(self, n: int):
+        self.parent = list(range(n))    # parent[x]表示x的长辈是parent[x]，默认是自己
+        self.rank = [0] * n             # rank[x]表示x的辈分,值越大则辈分越高，默认是0
+
+    # 寻找x的长辈(路径压缩)
+    def find(self, x: int) -> int:
+        if self.parent[x] != x:
+            self.parent[x] = self.find(self.parent[x])
+        return self.parent[x]
+
+    # 将x和y他们所处的家族合并(启发式合并)
+    def merge(self, x: int, y: int) -> None:
+        x, y = self.find(x), self.find(y)
+        if x == y:
+            return
+        if self.rank[x] > self.rank[y]:
+            self.parent[y] = x
+        elif self.rank[x] < self.rank[y]:
+            self.parent[x] = y
+        else:
+            self.parent[y] = x
+            self.rank[x] += 1
