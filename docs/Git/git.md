@@ -11,6 +11,9 @@
 `git reset HEAD`
 
 
+## 删除所有没有 tracked，没有被管理过的文件
+
+`git clean`
 
 ## 切换分支前 保存/恢复 当前工作现场
 
