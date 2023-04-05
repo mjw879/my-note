@@ -19,7 +19,10 @@ nav:
     - 思路转换: LeetCode/思路转换.md
     - 贪心: LeetCode/贪心.md
     - 图: LeetCode/图.md
-    - 动态规划: LeetCode/动态规划.md
+    - 动态规划: 
+      - 动态规划: LeetCode/dp/index.md
+      - 动态规划基础: LeetCode/dp/dp.md
+      - 区间 DP: LeetCode/dp/interval.md
     - 栈: LeetCode/栈.md
     - 滑动窗口: LeetCode/滑动窗口.md
     - 数据结构: LeetCode/数据结构.md
