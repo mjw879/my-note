@@ -1,5 +1,5 @@
 from util.LeetCodeUtils import *
 
 
-
-print(~1&0xffffffff)
+s=[1,2,3]
+print(list(accumulate(s,initial=0)))
