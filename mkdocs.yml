@@ -23,6 +23,7 @@ nav:
       - 动态规划: LeetCode/dp/index.md
       - 动态规划基础: LeetCode/dp/dp.md
       - 区间 DP: LeetCode/dp/interval.md
+      - 数位 DP: LeetCode/dp/number.md
     - 栈: LeetCode/栈.md
     - 滑动窗口: LeetCode/滑动窗口.md
     - 数据结构: LeetCode/数据结构.md
@@ -43,6 +44,7 @@ nav:
 theme:
   name: material
   logo: 'resources/icon/notebook.svg'
+  favicon: resources/icon/notebook.svg
   palette: 
     # Palette toggle for light mode
     - media: "(prefers-color-scheme: light)"
