@@ -29,18 +29,13 @@ nav:
     - 数据结构: LeetCode/数据结构.md
     - 双指针: LeetCode/双指针.md
     - 并查集: LeetCode/并查集.md
-  # - Algorithm:
-  #   - 数据结构:
-    
-
   - Git: Git/git.md
   - LaTex:  LaTex/LaTex.md
-  # - Algorithm:
-  #   - Algorithm/README.md 
-  #   - Page 1: section/page-1.md
-  #     - Page 1: 1. enuerate.md
-  #   - Page 2: section/page-n.md
-
+  - 算法导论:
+    - 算法导论: Introduction_to_Algorithms/README.md
+    - 2.算法基础: Introduction_to_Algorithms/2.basic.md
+    - 4.分治策略: Introduction_to_Algorithms/4.partition.md
+  
 theme:
   name: material
   logo: 'resources/icon/notebook.svg'
@@ -64,18 +59,24 @@ theme:
     - content.code.copy
     - navigation.indexes
     - navigation.top    # 返回顶部按钮
+    - content.tooltips
   
 markdown_extensions:
+  - attr_list
   - admonition
   - pymdownx.details
   - pymdownx.superfences
   - md_in_html # 让 `??? tip` 折叠块里面可以显示 LaTex 公式
+  - abbr
+  - pymdownx.snippets
+
   - pymdownx.arithmatex: # 渲染公式
       generic: true
   - pymdownx.highlight: # 自动生成代码行号
       linenums: true
   - pymdownx.tabbed:
       alternate_style: true 
+  
   # 支持emoji表情
   # - attr_list
   # - pymdownx.emoji:
@@ -86,6 +87,6 @@ extra_javascript: # 渲染公式
   - https://polyfill.io/v3/polyfill.min.js?features=es6
   - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
 
-# plugins:
-#   - search: 
-#       separator: '[\s\u200b\-]' # 中文搜索 require `pip3 install jieba`
+plugins:
+  - search: 
+      separator: '[\s\u200b\-]' # 中文搜索 require `pip3 install jieba`
